@@ -1,0 +1,40 @@
+.box1{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(247, 35, 158);
+    margin-left: 50px;
+    position: relative;
+}
+.box1 p{
+    text-align: center;
+    padding-top: 25px;
+}
+.box1 .box2{
+    font-family: 'Kanit', sans-serif;
+font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(88, 87, 86);
+    top: 300px;
+    left: 150px;
+    z-index: 3;
+}
+.box1 .box2 p{
+    font-size: larger;
+    font-weight: 500px;
+    color: rgb(240, 240, 241);
+}
+.box1 .box3{
+    font-family: 'Kanit', sans-serif;    position: absolute;
+    width: 600px;
+    height: 3;
+    background-color: rgb(90, 11, 163);
+    top: 350px;
+    left: 400px;
+    z-index: 2;
+}
+.box1 .box3 p{
+    padding: 0px 50px;
+    color: aqua;
+}
